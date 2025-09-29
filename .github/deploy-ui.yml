@@ -1,4 +1,4 @@
-name: Build and Deploy Focalboard Webapp
+name: Build and Deploy Focalboard
 
 on:
   push:
