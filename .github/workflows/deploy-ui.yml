@@ -21,7 +21,7 @@ jobs:
       - name: Install and build webapp
         working-directory: webapp
         run: |
-          npm install
+          npm install --legacy-peer-deps
           npm run build
 
       - name: Upload to server
